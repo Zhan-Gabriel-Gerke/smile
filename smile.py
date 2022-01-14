@@ -42,7 +42,4 @@ var=IntVar
 c.create_oval((0,0,250,250))
 c.create_oval((0,40,100,100))
 c.create_oval((0,40,100,100))
-
-
-
 tk.mainloop()
