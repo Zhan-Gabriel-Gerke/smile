@@ -9,16 +9,12 @@ def lisa_s():
         vastus.configure(text="Lisame suu canva peale")
     else:
         vastus.configure(text="On vaja suu kunstutada ära")
-def osa(osa:str):
-    global c,var_pea, var_nina, var_suu
-    pea=var_pea.get()
-    nina=var_nina.get()
-    suu=var_suu.get()
-    silm=var_silmad.get()
-    if pea="pea" and nina=="tühi" and suu="tühi" and silm="tühi":
-        c.create_oval((40,490,))
+def lisa_nao():
+    if var_nao.get()=="Nägu":
+        c.create_oval((10, 10, 490, 490), fill="#cc99cc", outline="black") #лицо
+    elif var_nao.get()=="tühi":
+        c.create_oval((10, 10, 490, 490), fill="#cc99cc", outline="#cc99cc") #лицо
 tk = Tk()
-
 tk.title("ruuvõrrend")
 var_nina=StringVar()
 f1=Frame(tk,width=500,height=500)
