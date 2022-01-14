@@ -2,26 +2,26 @@ from tkinter import *
 
 def lisa_nina():
     if var_nina.get()=="Nina":
-        c.create_oval((135, 147, 165, 183),width=3, fill="#000000", outline="#ffffff") #нос
+        c.create_oval((225, 245, 275, 305),width=3, fill="#000000", outline="#000000") #нос
     elif var_nina.get()=="tühi":
-        c.create_oval((135, 135, 165, 165),width=3, fill="#000000", outline="#ffffff") #нос
+        c.create_oval((225, 225, 275, 275),width=3, fill="#ffffff", outline="#ffffff") #нос
 def lisa_suu():
     if var_suu.get()=="Suu":
-        c.create_arc((100, 50, 400,400),start=180,extent=180, style=ARC, fill="#000000",width=10, outline="#ffffff")
+        c.create_arc((100, 300, 300,400),start=180,extent=180, style=ARC, fill="#ffffff",width=10, outline="#ffffff")
     elif var_suu.get()=="tühi":
-        c.create_arc((100, 50, 400,400),start=180,extent=180, style=ARC,   fill="#000000",width=10, outline="#ffffff")
+        c.create_arc((100, 300, 300,400),start=180,extent=180, style=ARC,   fill="#000000",width=10, outline="#000000")
 def lisa_eyes():
     if var_eyes.get()=="Silmad":
-        c.create_oval((240, 140, 260, 100), fill="#000000", outline="#000000") #првый 
-        c.create_oval((100, 125, 175, 175), fill="#000000", outline="#000000") #првый 
+        c.create_oval((300, 100, 400, 200), fill="#000000", outline="#000000") #првый 
+        c.create_oval((200, 200, 100, 100), fill="#000000", outline="#000000") #првый 
     elif var_eyes.get()=="tühi":
-        c.create_oval((250, 125, 400, 200),  fill="#ffffff", outline="#ffffff") #првый 
+        c.create_oval((300, 100, 400, 200),  fill="#ffffff", outline="#ffffff") #првый 
         c.create_oval((200, 200, 100, 100),  fill="#ffffff", outline="#ffffff") #левый 
 def lisa_nao():
     if var_nao.get()=="Nägu":
-        c.create_oval((20, 100, 392, 392),width=5, fill="#ffffff", outline="#000000") #лицо
+        c.create_oval((10, 40, 290, 290),width=5, fill="#ffffff", outline="#000000") #лицо
     elif var_nao.get()=="tühi":
-        c.create_oval((20, 100, 392, 392),width=5, fill="#ffffff", outline="#000000") #лицо
+        c.create_oval((10, 20, 290, 290),width=5, fill="#ffffff", outline="#ffffff") #лицо
 aken=Tk()
 aken.title("Face")
 aken.geometry('1000x500')
