@@ -7,9 +7,9 @@ def lisa_nina():
         c.create_oval((135, 135, 165, 165),width=3, fill="#000000", outline="#ffffff") #нос
 def lisa_suu():
     if var_suu.get()=="Suu":
-        c.create_arc((100, 50, 400,400),start=180,extent=180, style=ARC, fill="#000000",width=10, outline="#000000")
+        c.create_arc((100, 50, 400,400),start=180,extent=180, style=ARC, fill="#000000",width=10, outline="#ffffff")
     elif var_suu.get()=="tühi":
-        c.create_arc((100, 50, 400,400),start=180,extent=180, style=ARC,   fill="#ffffff",width=10, outline="#ffffff")
+        c.create_arc((100, 50, 400,400),start=180,extent=180, style=ARC,   fill="#000000",width=10, outline="#ffffff")
 def lisa_eyes():
     if var_eyes.get()=="Silmad":
         c.create_oval((240, 140, 260, 100), fill="#000000", outline="#000000") #првый 
